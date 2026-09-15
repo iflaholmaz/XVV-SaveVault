@@ -58,4 +58,3 @@ powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File .\Verify.ps1
 ```
 
 Testler yeni bir geçici test klasörü oluşturur ve örnek dosyalarla çalışır; gerçek oyun kayıtlarını kullanmaz. İncelemek için test klasörü tutulur. Arşiv, yeniden yükleme, eksik/boş klasör, bozulmuş yedek, yol taşması, dosya kilitleri ve WPF arka plan yedekleme testleri içerir.
-

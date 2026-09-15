@@ -1,0 +1,17 @@
+XVV SaveVault 1.0 — 2026-09-15
+Validated on Windows PowerShell 5.1 / WPF (STA).
+
+PASS: All script syntax.
+PASS: Unicode and binary file ZIP roundtrip.
+PASS: Exact restore with pre-restore ZIP and preserved previous folder.
+PASS: Restoring missing and empty registered save directories.
+PASS: Wrong-profile, overlapping path, tampered hash and traversal rejection.
+PASS: Locked source file fails without publishing a partial ZIP.
+PASS: Atomic configuration replacement and previous config retention.
+PASS: WPF load, language switching, background backup and history selection.
+VISUAL: Initial WPF screen rendered and inspected.
+
+Tests use isolated synthetic data only. No real game saves modified.
+Not verified against every game, cloud-sync provider, network filesystem,
+power-loss scenario or display scaling setting. No snapshot guarantee for
+running games. See README for backup/restore limitations.
